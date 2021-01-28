@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>openweathermap_hw</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand m-2 p-2">
+                <h1>WEATHER DASHBOARD</h1>
+            </a>
+            <form class="container-fluid">
+                <input class="form-control mt-3" type="text" id='searchCity' placeholder="Search City"><button type="button"
+                    id="searchBtn" class="btn btn-info mt-3">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="col-10">
+            <ul id="searchedCities" class="list-group"></ul>
+        </div>
+    </div>
+    </div>
+
+    <div id="weatherInfo">
+        <div class="row m-2 p-2">
+            <div id="cityDetails">
+            </div>
+        </div>
+
+        <div class="row m-2 p-2">
+            <div class="row"></div>
+                <h3>5-Day Forecast:</h3>
+            </div>
+        </div>
+
+        <div id="fiveDay" class="row row-cols-auto m-2 p-1">
+        </div>
+
+    </div>
+    </div>
+
+    </div>
+
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+    <script src="Assets/script.js"></script>
+</body>
+
+</html>
